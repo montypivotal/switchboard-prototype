@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %title Pivotal UI Rails Boilerplate
+    = stylesheet_link_tag    'application'
+    = stylesheet_link_tag    '/pivotal-ui/pivotal-ui.min.css'
+    = javascript_include_tag 'application'
+    = javascript_include_tag '/pivotal-ui/pivotal-ui.min.js'
+    = csrf_meta_tags
+  %body
+    .container
+      = yield

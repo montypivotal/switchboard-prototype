@@ -1,0 +1,5 @@
+applications:
+  - name: pivui-boilerplate
+    path: .
+    memory: 512MB
+    instances: 1
