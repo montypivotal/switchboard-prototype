@@ -1,0 +1,2 @@
+class ProxieserrorController < ApplicationController
+end

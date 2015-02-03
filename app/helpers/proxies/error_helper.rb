@@ -1,0 +1,2 @@
+module Proxies::ErrorHelper
+end

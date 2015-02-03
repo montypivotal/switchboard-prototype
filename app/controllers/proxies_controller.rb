@@ -1,0 +1,2 @@
+class ProxiesController < ApplicationController
+end
