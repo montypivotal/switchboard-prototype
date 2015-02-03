@@ -1,12 +1,15 @@
 !!!
 %html
   %head
-    %title Pivotal UI Rails Boilerplate
+    %title Switchboard Dashboard
     = stylesheet_link_tag    'application'
     = stylesheet_link_tag    '/pivotal-ui/pivotal-ui.min.css'
     = javascript_include_tag 'application'
     = javascript_include_tag '/pivotal-ui/pivotal-ui.min.js'
     = csrf_meta_tags
   %body
+    .main.container-fluid.pvl.bg-dark-1
+      .container.pvn.mvn
+        %h1.h3.man.type-neutral-8 Pivotal Switchboard
     .container
       = yield
