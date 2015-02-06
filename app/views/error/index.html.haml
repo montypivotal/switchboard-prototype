@@ -1,7 +1,7 @@
 %body.bg-neutral-9
   %h1.mbn.title CloudyApp
   %span.i.fa.fa-refresh.type-neutral-6.h5.man
-  %span.h5.mtn.mls Last Update: 8:01 pm EST on February 2, 2015  
+  %span.h5.mtn.mls Last Update: Just now 
   %hr.divider-alternate-2.mtxl.mbn
   .row.man
     .alert.alert-error
@@ -9,66 +9,73 @@
         .media-left
           %i.fa.fa-exclamation-triangle
         .media-body.em-high
-          3 of 4 nodes are down.
+          2 out of 3 nodes are unhealthy.
   .row.mtxl
-    .col-sm-24.mtl   
+    .col-sm-24.mtl  
       .panel.panel-alt.bg-neutral-11.man
         .panel-body.pam
-          %h1.mbs.mll.mts.type-neutral-3 Proxy0
+          %h1.mlm.mts.mbs.type-neutral-3 Proxy0
       %hr.divider-alternate-1.man    
       %table.table.table-data.table-light.man
         %thead
           %tr
-            %th.col-sm-8.plxl
-              %h5.em-max
-                Nodes
-            %th.col-sm-6.plxl
-              %h5.em-max
-                IP Address                
-            %th.col-sm-5.plxl
-              %h5.em-max
-                Current Sessions
-            %th.col-sm-5.plxl
-              %h5.em-max
-                Total Sessions
+            %th.col-sm-6
+              %h5.em-max.mlm Nodes
+            %th.col-sm-4
+              %h5.em-max.mlm Status
+            %th.col-sm-4
+              %h5.em-max.mlm Current Sessions
+            %th.col-sm-5
+              %span.h5.em-max.mlm Total Sessions
+              %span.h5.mls.em-low Last 6 hrs
+            %th.col-sm-3
+              %h5.em-max.mlm IP Address
         %tbody
           %tr
             %td.ptm
               %h1
-                %span.label.label-primary.bg-error-2.mll mysql-node1
-            %td.txt-m 
-              %h1.mll 0.0.0.0
-            %td.txt-m 
-              %h1.mll 0
-            %td.txt-m 
-              %h1.mll 0
+                %span.label.label-primary.mll.bg-error-2 mysql-node1
+            %td.txt-m
+              %h5.mlm
+                DOWN for 19m
+            %td.txt-m
+              %h5.mlm
+                0
+            %td.txt-m
+              %h5.mlm
+                0
+            %td.txt-m
+              %h5.mlm
+                1.0.16.256
           %tr
             %td.ptm
               %h1
-                %span.label.label-primary.bg-error-2.mll mysql-node2
-            %td.txt-m 
-              %h1.mll 0.0.0.0
-            %td.txt-m 
-              %h1.mll 0
-            %td.txt-m 
-              %h1.mll 0
+                %span.label.label-primary.mll.bg-error-2 mysql-node1
+            %td.txt-m
+              %h5.mlm
+                DOWN for 19m
+            %td.txt-m
+              %h5.mlm
+                0
+            %td.txt-m
+              %h5.mlm
+                16
+            %td.txt-m
+              %h5.mlm
+                1.0.16.256
           %tr
             %td.ptm
               %h1
-                %span.label.label-primary.bg-error-2.mll mysql-node3
-            %td.txt-m 
-              %h1.mll 0.0.0.0
-            %td.txt-m 
-              %h1.mll 0
-            %td.txt-m 
-              %h1.mll 0
-          %tr
-            %td.ptm
-              %h1
-                %span.label.label-primary.mll mysql-node4
-            %td.txt-m 
-              %h1.mll 1.1.0.16
-            %td.txt-m 
-              %h1.mll 23
-            %td.txt-m 
-              %h1.mll 48
+                %span.label.label-primary.mll mysql-node1
+            %td.txt-m
+              %h5.mlm
+                UP for 5h 23m
+            %td.txt-m
+              %h5.mlm
+                12
+            %td.txt-m
+              %h5.mlm
+                24
+            %td.txt-m
+              %h5.mlm
+                1.0.16.256
