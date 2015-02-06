@@ -1,0 +1,2 @@
+class DeverrorController < ApplicationController
+end
