@@ -1,7 +1,7 @@
 %body.bg-neutral-9
   %h1.mbn.title CloudyApp
   %span.i.fa.fa-refresh.type-neutral-6.h5.man
-  %span.h5.mtn.mls Last Update: 8:01 pm EST on February 2, 2015  
+  %span.h5.mtn.mls Last Update: Just now  
   / .row.mtm.mbxl
   /   %h1.man.pll.ptn
   /     %span.label.label-primary.bg-neutral-11.type-neutral-5
@@ -11,20 +11,20 @@
   /       %i.fa.fa-circle.type-brand-3.prs
   /       Proxy0
   %hr.divider-alternate-2.mtxl.mbn
+  / .row.man
+  /   .alert.alert-error
+  /     .media
+  /       .media-left
+  /         %i.fa.fa-exclamation-triangle
+  /       .media-body.em-high
+  /         3 of 4 nodes are down.
   .row.man
     .alert.alert-error
       .media
         .media-left
           %i.fa.fa-exclamation-triangle
         .media-body.em-high
-          3 of 4 nodes are down.
-  / .row.man
-  /   .alert.alert-success.bg-brand-4
-  /     .media
-  /       .media-left
-  /         %i.fa.fa-check-circle
-  /       .media-body.em-high
-  /         All nodes are up!
+          2 out of 3 nodes are unhealthy.
   .row.mtxl
     .col-sm-12.mtl   
       .panel.panel-alt.bg-neutral-11.man
@@ -34,34 +34,32 @@
       %table.table.table-data.table-light.man
         %thead
           %tr
-            %th.col-sm-10 Nodes
+            %th Nodes
+            %th Status
             %th Current Sessions
-            %th Total Sessions
+            %th IP Address
         %tbody
           %tr
+            %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 mysql-node1
+                %span.label.label-primary.bg-error-2 DOWN for 15m
             %td.txt-m 0
-            %td.txt-m 3
+            %td.txt-m 1.0.16.126
           %tr
+            %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 mysql-node2
+                %span.label.label-primary.bg-error-2 DOWN for 15m
             %td.txt-m 0
-            %td.txt-m 0
+            %td.txt-m 1.0.16.126
           %tr
+            %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 mysql-node3
+                %span.label.label-primary UP for 15m
             %td.txt-m 0
-            %td.txt-m 0
-          %tr
-            %td.txt-m
-              %h4.pan
-                %span.label.label-primary mysql-node4
-            %td.txt-m 12
-            %td.txt-m 12       
+            %td.txt-m 1.0.16.126 
     .col-sm-12.mtl
       .panel.panel-alt.bg-neutral-11.man
         .panel-body.pam
@@ -70,34 +68,32 @@
       %table.table.table-data.table-light.man
         %thead
           %tr
-            %th.col-sm-10 Nodes
+            %th Nodes
+            %th Status
             %th Current Sessions
-            %th Total Sessions
+            %th IP Address
         %tbody
           %tr
+            %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 mysql-node1
+                %span.label.label-primary.bg-error-2 DOWN for 15m
             %td.txt-m 0
-            %td.txt-m 3
+            %td.txt-m 1.0.16.126
           %tr
+            %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 mysql-node2
+                %span.label.label-primary.bg-error-2 DOWN for 15m
             %td.txt-m 0
-            %td.txt-m 0
+            %td.txt-m 1.0.16.126
           %tr
+            %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 mysql-node3
+                %span.label.label-primary UP for 15m
             %td.txt-m 0
-            %td.txt-m 0
-          %tr
-            %td.txt-m
-              %h4.pan
-                %span.label.label-primary mysql-node4
-            %td.txt-m 12
-            %td.txt-m 12
+            %td.txt-m 1.0.16.126
   .row         
     .col-sm-12.mtxl
       .panel.panel-alt.bg-neutral-11.man
@@ -107,31 +103,29 @@
       %table.table.table-data.table-light.man
         %thead
           %tr
-            %th.col-sm-10 Nodes
+            %th Nodes
+            %th Status
             %th Current Sessions
-            %th Total Sessions
+            %th IP Address
         %tbody
           %tr
+            %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 mysql-node1
+                %span.label.label-primary.bg-error-2 DOWN for 15m
             %td.txt-m 0
-            %td.txt-m 3
+            %td.txt-m 1.0.16.126
           %tr
+            %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 mysql-node2
+                %span.label.label-primary.bg-error-2 DOWN for 15m
             %td.txt-m 0
-            %td.txt-m 0
+            %td.txt-m 1.0.16.126
           %tr
+            %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 mysql-node3
+                %span.label.label-primary UP for 15m
             %td.txt-m 0
-            %td.txt-m 0
-          %tr
-            %td.txt-m
-              %h4.pan
-                %span.label.label-primary mysql-node4
-            %td.txt-m 12
-            %td.txt-m 12        
+            %td.txt-m 1.0.16.126       
