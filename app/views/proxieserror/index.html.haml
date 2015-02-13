@@ -1,23 +1,8 @@
 %body.bg-neutral-9
   %h1.mbn.title CloudyApp
   %span.i.fa.fa-refresh.type-neutral-6.h5.man
-  %span.h5.mtn.mls Last Update: Just now  
-  / .row.mtm.mbxl
-  /   %h1.man.pll.ptn
-  /     %span.label.label-primary.bg-neutral-11.type-neutral-5
-  /       %i.fa.fa-circle.type-error-2.prs
-  /       %i.fa.fa-circle.type-error-2.prs
-  /       %i.fa.fa-circle.type-error-2.prs
-  /       %i.fa.fa-circle.type-brand-3.prs
-  /       Proxy0
+  %span.h5.mtn.mls Last Update: Just now
   %hr.divider-alternate-2.mtxl.mbn
-  / .row.man
-  /   .alert.alert-error
-  /     .media
-  /       .media-left
-  /         %i.fa.fa-exclamation-triangle
-  /       .media-body.em-high
-  /         3 of 4 nodes are down.
   .row.man
     .alert.alert-error
       .media
@@ -43,22 +28,28 @@
             %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 DOWN for 15m
+                %span.label.label-primary.bg-error-2
+                  %i.fa.fa-times.fa-fw
+                  UNHEALTHY
             %td.txt-m 0
             %td.txt-m 1.0.16.126
           %tr
             %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 DOWN for 15m
+                %span.label.label-primary.bg-error-2
+                  %i.fa.fa-times.fa-fw
+                  UNHEALTHY
             %td.txt-m 0
             %td.txt-m 1.0.16.126
           %tr
             %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary UP for 15m
-            %td.txt-m 0
+                %span.label.label-primary
+                  %i.fa.fa-check.fa-fw
+                  HEALTHY
+            %td.txt-m 24
             %td.txt-m 1.0.16.126 
     .col-sm-12.mtl
       .panel.panel-alt.bg-neutral-11.man
@@ -77,23 +68,29 @@
             %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 DOWN for 15m
+                %span.label.label-primary.bg-error-2
+                  %i.fa.fa-times.fa-fw
+                  UNHEALTHY
             %td.txt-m 0
             %td.txt-m 1.0.16.126
           %tr
             %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 DOWN for 15m
+                %span.label.label-primary.bg-error-2
+                  %i.fa.fa-times.fa-fw
+                  UNHEALTHY
             %td.txt-m 0
             %td.txt-m 1.0.16.126
           %tr
             %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary UP for 15m
-            %td.txt-m 0
-            %td.txt-m 1.0.16.126
+                %span.label.label-primary
+                  %i.fa.fa-check.fa-fw
+                  HEALTHY
+            %td.txt-m 24
+            %td.txt-m 1.0.16.126 
   .row         
     .col-sm-12.mtxl
       .panel.panel-alt.bg-neutral-11.man
@@ -112,20 +109,26 @@
             %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 DOWN for 15m
+                %span.label.label-primary.bg-error-2
+                  %i.fa.fa-times.fa-fw
+                  UNHEALTHY
             %td.txt-m 0
             %td.txt-m 1.0.16.126
           %tr
             %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary.bg-error-2 DOWN for 15m
+                %span.label.label-primary.bg-error-2
+                  %i.fa.fa-times.fa-fw
+                  UNHEALTHY
             %td.txt-m 0
             %td.txt-m 1.0.16.126
           %tr
             %td.txt-m mysql-node-1
             %td.txt-m
               %h4.pan
-                %span.label.label-primary UP for 15m
-            %td.txt-m 0
-            %td.txt-m 1.0.16.126       
+                %span.label.label-primary
+                  %i.fa.fa-check.fa-fw
+                  HEALTHY
+            %td.txt-m 24
+            %td.txt-m 1.0.16.126     

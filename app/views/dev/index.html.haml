@@ -1,0 +1,115 @@
+%body.bg-neutral-9
+  %h1.mbn.title CloudyApp
+  %span.i.fa.fa-refresh.type-neutral-6.h5.man
+  %span.h5.mtn.mls Last Update: Just now 
+  %hr.divider-alternate-2.mtxl.mbn
+  .row.man
+    .alert.alert-success.bg-brand-4
+      .media
+        .media-left
+          %i.fa.fa-check-circle
+        .media-body.em-high
+          All nodes are healthy!
+  .row.mtxl
+    .col-sm-24.mtl  
+      .panel.panel-alt.bg-neutral-11.man
+        .panel-body.pam
+          %h1.mlm.mts.pan.mbn.type-neutral-3 Proxy0
+          %h5.mtn.mlm.mbl.pan.type-neutral-5 IP Address: 0.0.0.16
+      %hr.divider-alternate-1.man    
+      %table.table.table-data.table-light.man
+        %thead
+          %tr
+            %th.col-sm-6
+              %h5.em-max.mlm Nodes
+            %th.col-sm-6
+              %h5.em-max.mlm Status
+            %th.col-sm-6
+              %h5.em-max.mlm Current Sessions
+            %th.col-sm-6
+              %h5.em-max.mlm IP Address
+        %tbody
+          %tr.bbn
+            %td
+              #accordion-5.panel.pan.man
+                .panel-heading-accordion.pan.man.mlm.collapse-trigger.collapsed{"data-parent" => "#accordion-3", "data-toggle" => "collapse", :href => "#myCollapse-1"}
+                  .row
+                    .col-md-23
+                      %a
+                        .when-collapsed-inline
+                          %i.fa.fa-caret-right.collapse-icon
+                        .when-expanded-inline
+                          %i.fa.fa-caret-down.collapse-icon
+                      %h4.collapse-title.type-em-1.type-primary-2 mysql-node-1
+            %td.txt-m.ptm
+              %h2
+                %span.label.label-primary.mlm.plm 
+                  %i.fa.fa-check.fa-fw
+                  HEALTHY
+            %td.txt-m
+              %h4.mlm
+                24
+            %td.txt-m
+              %h4.mlm
+                1.0.0.16
+          %tr
+            %td.pan{:colspan => "4"}
+              #myCollapse-1.panel-collapse.collapse
+                .panel-body-accordion
+                  Error Logs
+          %tr
+            %td
+              #accordion-5.panel.pan.man
+                .panel-heading-accordion.pan.man.mlm.collapse-trigger.collapsed{"data-parent" => "#accordion-3", "data-toggle" => "collapse", :href => "#myCollapse-2"}
+                  .row
+                    .col-md-23
+                      %a
+                        .when-collapsed-inline
+                          %i.fa.fa-caret-right.collapse-icon
+                        .when-expanded-inline
+                          %i.fa.fa-caret-down.collapse-icon
+                      %h4.collapse-title.type-em-1.type-primary-2 mysql-node-2
+            %td.txt-m.ptm
+              %h2
+                %span.label.label-primary.mlm.plm 
+                  %i.fa.fa-check.fa-fw
+                  HEALTHY
+            %td.txt-m
+              %h4.mlm
+                0
+            %td.txt-m
+              %h4.mlm
+                1.0.16.256
+          %tr
+            %td.pan{:colspan => "4"}
+              #myCollapse-2.panel-collapse.collapse
+                .panel-body-accordion
+                  Error Logs
+          %tr
+            %td
+              #accordion-5.panel.pan.man
+                .panel-heading-accordion.pan.man.mlm.collapse-trigger.collapsed{"data-parent" => "#accordion-3", "data-toggle" => "collapse", :href => "#myCollapse-3"}
+                  .row
+                    .col-md-23
+                      %a
+                        .when-collapsed-inline
+                          %i.fa.fa-caret-right.collapse-icon
+                        .when-expanded-inline
+                          %i.fa.fa-caret-down.collapse-icon
+                      %h4.collapse-title.type-em-1.type-primary-2 mysql-node-3
+            %td.txt-m.ptm
+              %h2
+                %span.label.label-primary.mlm.plm 
+                  %i.fa.fa-check.fa-fw
+                  HEALTHY
+            %td.txt-m
+              %h4.mlm
+                0
+            %td.txt-m
+              %h4.mlm
+                16.0.0.1
+          %tr
+            %td.pan{:colspan => "4"}
+              #myCollapse-3.panel-collapse.collapse
+                .panel-body-accordion
+                  Error Logs

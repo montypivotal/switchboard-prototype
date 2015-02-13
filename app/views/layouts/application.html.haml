@@ -8,8 +8,12 @@
     = javascript_include_tag '/pivotal-ui/pivotal-ui.min.js'
     = csrf_meta_tags
   %body
-    .main.container-fluid.pvl.bg-dark-1
+    .main.container-fluid.pvm.bg-dark-1
       .container.pvn.mvn
-        %h1.h3.man.type-neutral-8 Pivotal Switchboard
+        .media
+          %a.media-left{:href => "#"}
+            = image_tag "switchboard-header-logo.png"
+          .media-body
+            %h1.h3.man.pts.type-neutral-8 Pivotal Switchboard
     .container
       = yield
